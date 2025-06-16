@@ -38,7 +38,7 @@ language-model-from-scratch/
 │   ├── structure/         # Model architecture implementations
 │   ├── tokenizer/         # Tokenization utilities
 │   |
-``` ```
+```
 
 
 ## Contributing
