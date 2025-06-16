@@ -12,9 +12,6 @@ This repository contains code and documentation for building language models fro
 ## Features
 
 - Implementation of core language model architectures
-- Step-by-step explanations of key concepts
-- Training examples with sample datasets
-- Evaluation metrics and testing procedures
 
 ## Installation
 
