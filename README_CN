@@ -1,0 +1,56 @@
+# 从零开始构建语言模型
+
+这是一个从基本原理实现语言模型的项目，旨在学习和理解现代语言模型背后的核心概念。
+非官方的斯坦福CS336 CH1 作业的实现。
+你可以调整参数，从头训练自己的大语言模型。
+
+## 概述
+
+本仓库包含从零开始构建语言模型的代码和文档。实现过程注重清晰度和教育价值，而非性能优化，非常适合那些想要了解语言模型内部工作原理的人。
+
+## 特点
+
+- 实现核心语言模型架构
+
+## 安装
+
+```bash
+# 克隆仓库
+git clone https://github.com/DoubleRu1/language-model-from-scratch.git
+
+# 进入项目目录
+cd language-model-from-scratch
+
+# 使用 uv sync 安装依赖
+uv sync
+```
+
+## 项目结构
+
+```
+language-model-from-scratch/
+├── data/                  # 样本数据集
+├── src/                   # 语言模型的源代码
+│   ├── structure/         # 模型架构实现
+│   ├── tokenizer/         # 分词工具
+... ...
+```
+
+## 贡献
+
+欢迎贡献！请随时提交拉取请求。
+
+1. Fork 这个仓库
+2. 创建你的特性分支 (`git checkout -b feature/amazing-feature`)
+3. 提交你的更改 (`git commit -m '添加一些很棒的特性'`)
+4. 推送到分支 (`git push origin feature/amazing-feature`)
+5. 打开一个拉取请求
+
+## 许可证
+
+本项目采用MIT许可证 - 详情请参见LICENSE文件。
+
+## 致谢
+
+- 关于transformer架构和语言建模的论文和资源
+- 启发这个教育项目的开源实现
